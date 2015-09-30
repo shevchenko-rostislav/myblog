@@ -1,0 +1,11 @@
+/home/rost/.rvm/rubies/ruby-2.2.3/bin/ruby -r ./siteconf20150930-23540-kikmod.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150930-23540-he2v1z
